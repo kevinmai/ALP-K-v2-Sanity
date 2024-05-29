@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "api": {
+    "projectId": "6bx9ku1c",
+    "dataset": "production"
+  },
+  "project": {
+    "name": "VitalScript"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "@sanity/code-input",
+    "vslogo",
+    "@sanity/color-input",
+    "dark-mode"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    },
+    {
+      "implements": "part:@sanity/base/brand-logo",
+      "path": "./theme/logo/Logo.js"
+    },
+    {
+      "implements": "part:@sanity/base/theme/variables/override-style",
+      "path": "./theme/variableOverrides.css"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+:root {
+  --font-family-sans-serif: 'Lato';
+
+  --body-bg: #f1f1f1;
+  --text-color: rgb(58, 58, 58);
+
+  --brand-primary: #4fa7bc;
+  --brand-secondary: #2A445E;
+
+  --component-bg: #f8f8f8;
+  --component-border-color: #777;
+  --component-box-shadow: 0 1px 3px color(var(--black) a(50%));
+
+  --state-danger-color: #F8495F;
+
+  --main-navigation-color: var(--brand-secondary);
+}
+/* ./styles/variables.css */
+
